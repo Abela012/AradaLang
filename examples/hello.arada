@@ -1,0 +1,49 @@
+# Simple hello world program in AradaLang
+
+# Variable declaration
+አስቀምጥ መልእክት = "ሰላም ጀማው!"
+አሳይ(መልእክት)
+
+# Loop example
+ድገም 4 ጊዜ {
+    አሳይ("እንደገና!")
+}
+
+# If-else example
+አስቀምጥ ቁጥር = 42
+ከሆነ ቁጥር > 10 {
+    አሳይ("ግብዳ ቁጥር ነው")
+} ካልሆነ {
+    አሳይ("ፈላ ቁጥር ነው")
+} 
+አስቀምጥ ስም = "ቤላ"
+አሳይ(ስም)
+# Function example in AradaLang
+
+# Define a function to calculate sum
+ተግባር ድምር(x, y) {
+    ምላሽ x + y
+}
+
+# Define a function to check if a number is big
+ተግባር ትልቅነው(ቁጥር) {
+    ከሆነ ቁጥር > 10 {
+        ምላሽ "አዎ"
+    } ካልሆነ {
+        ምላሽ "አይ"
+    }
+}
+
+# Use the functions
+አስቀምጥ ውጤት = ድምር(5, 7)
+አሳይ(ውጤት)
+
+አስቀምጥ መልስ = ትልቅነው(ውጤት)
+አሳይ(መልስ)
+አስቀምጥ ፍሎት = 10.1
+አሳይ(ፍሎት)
+አስቀምጥ ቁጥር = 10
+እስከ ቁጥር > 0 {
+    አሳይ(ቁጥር)
+    ቁጥር = ቁጥር - 1
+}
