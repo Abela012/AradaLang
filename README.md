@@ -15,7 +15,7 @@ AradaLang is an educational programming language designed to make programming ac
 1. Make sure you have Python 3.7 or higher installed on your system
 2. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/AradaLang.git
+   git clone https://github.com/Abela012/AradaLang.git
    cd AradaLang
    ```
 3. Install the required dependencies:

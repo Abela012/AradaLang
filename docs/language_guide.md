@@ -8,7 +8,7 @@ AradaLang is a programming language designed to make programming accessible to A
 1. Make sure you have Python 3.7 or higher installed
 2. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/AradaLang.git
+   git clone https://github.com/Abela012/AradaLang.git
    cd AradaLang
    ```
 3. Install dependencies:
